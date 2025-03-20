@@ -1,52 +1,66 @@
-# README Template
+# Reviews of Clothing Analytics and Pipeline
 
-Below is a template provided for use when building your README file for students.
-
-# Project Title
-
-Project description goes here.
+This project represents a ML pipeline for predicting customer recommendation of clothing products. It was written in Jupyter Notebook. This pipeline dealing with many types of data, like (text,numbers,etc.)
 
 ## Getting Started
 
 Instructions for how to get a copy of the project running on your local machine.
+`git clone https://github.com/Saad711T/dsnd-pipelines-project`
 
 ### Dependencies
 
 ```
-Examples here
+- numpy
+- pandas
+- scikit-learn
+- matplotlib
+- scipy
 ```
 
 ### Installation
 
-Step by step explanation of how to get a dev environment running.
+Run this command in your terminal.
+`pip install numpy pandas spacy scikit-learn matplotlib`
 
-List out the steps
+## How to use ?
 
-```
-Give an example here
-```
+- Open a Jupyter Notebook file.
+- Execute the notebook cells.
+- Load and explore the dataset.
+- Preprocess the data for readiness.
+- Construct and train the model within a pipeline.
+- Enhance the model using RandomizedSearchCV.
+- Assess the final model using the test data.
 
-## Testing
+## Features
+### Data Ingestion & Preliminary Analysis
+- **Imports the dataset** from a CSV file.
+- **Conducts exploratory data analysis** to examine the distribution of data, identify missing values, and evaluate class imbalances.
 
-Explain the steps needed to run any automated tests
+### Preprocessing & Feature Construction
+- **Employs a custom spaCy-based transformer** for text data preprocessing, focusing on lemmatization and removing stopwords.
+- **Constructs separate pipelines** for numerical, categorical, and text data using scikit-learn's Pipeline and ColumnTransformer frameworks.
 
-### Break Down Tests
+### Model Development & Optimization
+- **Embeds a RandomForestClassifier** in a comprehensive pipeline.
+- **Utilizes GridSearchCV** for meticulous hyperparameter tuning to enhance model efficacy.
 
-Explain what each test does and why
+### Visualization & Model Assessment
+- **Produces detailed visualizations**, such as plots for feature distribution, class imbalances, and confusion matrices.
+- **Generates Word Clouds** to depict prominent terms in review texts.
+- **Delivers exhaustive classification reports** and evaluates the model based on accuracy metrics.
 
-```
-Examples here
-```
-
-## Project Instructions
 
 This section should contain all the student deliverables for this project.
 
 ## Built With
 
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
+* [Python](https://www.python.org) - Python is High-level language used mainly in machine learning ,data science ,video games ,and back-end web development.
+* [Jupyter Notebook](https://jupyter.org) - Jupyter is IDE/Environment using for (Julia & R & Python) with Markdown comments , It's very good tool for ML & Data science.
+* [Pandas](https://pandas.pydata.org) - Pandas is python library using for Data manipulation.
+* [Numpy](https://numpy.org) - Numpy is python library using for numerical things , and Numpy meaning is "Numerical Python".
+* [Scikit-Learn](https://scikit-learn.org/stable) - Scikit-Learn is python library using primarily for ML/DL.
+* [Matplotlib](https://matplotlib.org) - Matplotlib is python library using in Data visualization , It's very helpful for Data scientists/analysts.
 
 Include all items used to build project.
 

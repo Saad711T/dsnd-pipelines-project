@@ -61,6 +61,8 @@ This section should contain all the student deliverables for this project.
 * [Numpy](https://numpy.org) - Numpy is python library using for numerical things , and Numpy meaning is "Numerical Python".
 * [Scikit-Learn](https://scikit-learn.org/stable) - Scikit-Learn is python library using primarily for ML/DL.
 * [Matplotlib](https://matplotlib.org) - Matplotlib is python library using in Data visualization , It's very helpful for Data scientists/analysts.
+* [SpaCy](https://spacy.io/) - SpaCy is library for advanced Natural Language Processing in Python.
+
 
 Include all items used to build project.
 

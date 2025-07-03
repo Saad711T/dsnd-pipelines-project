@@ -14,7 +14,7 @@ Instructions for how to get a copy of the project running on your local machine.
 - pandas
 - scikit-learn
 - matplotlib
-- scipy
+- spacy
 ```
 
 ### Installation
